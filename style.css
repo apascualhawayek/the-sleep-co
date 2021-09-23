@@ -6,13 +6,17 @@
 
 /* temporary styles for structural html */ 
 
-*{
+section{
     padding:0.5rem;
     border: 3px solid rgb(225, 225,225)
 }
 
-body{ border:none; }
-html{ border: none;}
+body{ 
+
+    font-family: catamaran, sans-serif; 
+    color: #192E37; 
+}
+
 
 /* image styles */ 
 .bg-image{
@@ -23,11 +27,51 @@ html{ border: none;}
 
 /* universal styles and utility classes*/ 
 
-.padded { padding: 5%;} 
+.padded { padding: 3%;} 
 .padded-sm { padding: 1rem;}
 
 
 .bg-dark { 
     background-color: #192E37;
     color: white; 
+}
+
+
+.tall-80 { min-height: : 80vh;}
+.tall-90 {min-height: 90vh;}
+.tall-100{ min-height: 100vh;}
+
+/* typography styles*/ 
+
+h2{ 
+    font-size: 2.5rem;
+}
+
+p{ 
+    font-weight: 200;
+}
+
+.featured-text{ color: #ffbe00; }
+.font-weight-light { font: 200;}
+.font-weight-normal{ font-weight: normal;}
+.font-weight-extra-bold{ font: 800;}
+
+.text-left{ text-align: left;}
+.text-center{ text-align: center;}
+.text-right{text-align: right; }
+
+/* header styles */ 
+
+header{
+    background-image: url('images/the-sleep-co4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header h3{ 
+    font-size: 5.5rem; 
+    line-height: 1; 
+
+
+
 }
